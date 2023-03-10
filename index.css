@@ -1,0 +1,29 @@
+html,
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.bg{
+    background-image: url('./birthday.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+
