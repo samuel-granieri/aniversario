@@ -2,28 +2,27 @@ html,
 body{
     margin: 0;
     padding: 0;
-}
-
-.bg{
+    height: 100%;
     background-image: url('./birthday.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
 
     display: flex;
     align-items: center;
     justify-content: center;
-    align-items: center;
-
+   
 }
+
 
 .titulo{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    text-align: center;
     align-items: center;
+    text-align: center;
 }
 
 
@@ -32,6 +31,7 @@ body{
     width: 200px;
     height: 200px;
     margin: auto;
+    display: block;
 }
 
 
